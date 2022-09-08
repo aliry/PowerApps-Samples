@@ -50,7 +50,7 @@ export class ObjectOutputControl implements ComponentFramework.ReactControl<IInp
      */
     public async getOutputSchema(context: ComponentFramework.Context<IInputs>): Promise<Record<string, unknown>> {
         return Promise.resolve({
-            StaticData: StaticDataSchema
+            Data: StaticDataSchema
         });
     }
 
